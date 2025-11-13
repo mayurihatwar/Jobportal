@@ -1,0 +1,64 @@
+/* PostJob.css */
+.post-job-container {
+  max-width: 32rem; /* Tailwind's max-w-lg */
+  margin-left: auto; /* Tailwind's mx-auto */
+  margin-right: auto; /* Tailwind's mx-auto */
+  background-color: #ffffff; /* Tailwind's bg-white */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's shadow-lg */
+  border-radius: 0.75rem; /* Tailwind's rounded-xl */
+  padding: 2rem; /* Tailwind's p-8 */
+  margin-top: 2.5rem; /* Tailwind's mt-10 */
+  border: 1px solid #e2e8f0; /* Tailwind's border border-gray-200 */
+}
+
+.post-job-title {
+  font-size: 1.875rem; /* Tailwind's text-3xl */
+  font-weight: 800; /* Tailwind's font-extrabold */
+  color: #2d3748; /* Tailwind's text-gray-800 */
+  margin-bottom: 1.5rem; /* Tailwind's mb-6 */
+  text-align: center; /* Tailwind's text-center */
+}
+
+.post-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Tailwind's space-y-5 */
+}
+
+.post-job-form input[type="text"],
+.post-job-form textarea {
+  width: 100%; /* Tailwind's w-full */
+  padding: 0.75rem; /* Tailwind's p-3 */
+  border: 1px solid #d1d5db; /* Tailwind's border border-gray-300 */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* Tailwind's shadow-sm */
+  outline: none; /* Tailwind's focus:outline-none */
+  transition: all 150ms ease-in-out;
+}
+
+.post-job-form input[type="text"]:focus,
+.post-job-form textarea:focus {
+  kerning: 2px solid #3b82f6; /* Tailwind's focus:ring-2 focus:ring-blue-500 */
+  border-color: transparent; /* Tailwind's focus:border-transparent */
+}
+
+.post-job-form textarea {
+  height: 8rem; /* Tailwind's h-32 */
+  resize: vertical; /* Tailwind's resize-none (changed to vertical for better UX) */
+}
+
+.post-job-button {
+  width: 100%; /* Tailwind's w-full */
+  background-image: linear-gradient(to right, #3b82f6, #4f46e5); /* Tailwind's bg-gradient-to-r from-blue-500 to-indigo-600 */
+  color: white;
+  padding: 0.75rem 1.25rem; /* Tailwind's px-5 py-3 */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  font-weight: 600; /* Tailwind's font-semibold */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Tailwind's shadow-md */
+  transition: all 300ms ease-in-out; /* Tailwind's transition duration-300 */
+}
+
+.post-job-button:hover {
+  background-image: linear-gradient(to right, #2563eb, #4338ca); /* Tailwind's hover:from-blue-600 hover:to-indigo-700 */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's hover:shadow-lg */
+}

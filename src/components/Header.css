@@ -1,0 +1,37 @@
+header {
+  background: linear-gradient(to right, #3b82f6, #4f46e5); /* Tailwind's blue-500 to indigo-600 */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+header h1 {
+  font-size: 1.5rem; /* Tailwind's text-2xl */
+  font-weight: 800; /* Tailwind's font-extrabold */
+  letter-spacing: 0.05em; /* Tailwind's tracking-wide */
+  transition: color 300ms ease-in-out; /* Tailwind's transition duration-300 */
+}
+
+header h1:hover {
+  color: #e5e7eb; /* Tailwind's hover:text-gray-200 */
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem; /* Tailwind's space-x-6 */
+  font-weight: 500; /* Tailwind's font-medium */
+}
+
+header nav a {
+  transition: color 300ms ease-in-out; /* Tailwind's transition duration-300 */
+}
+
+header nav a:hover {
+  color: #e5e7eb; /* Tailwind's hover:text-gray-200 */
+}

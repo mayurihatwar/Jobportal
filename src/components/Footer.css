@@ -1,0 +1,18 @@
+footer {
+  background-color: #2d3748; /* Tailwind's bg-gray-800 */
+  color: #cbd5e0; /* Tailwind's text-gray-300 */
+  text-align: center;
+  padding: 1.5rem 0; /* Tailwind's py-6 */
+  margin-top: 2rem; /* Tailwind's mt-8 */
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); /* Tailwind's shadow-inner */
+  border-top: 1px solid #4a5568; /* Tailwind's border-t border-gray-700 */
+}
+
+footer p {
+  font-size: 0.875rem; /* Tailwind's text-sm */
+  transition: color 300ms ease-in-out; /* Tailwind's transition duration-300 */
+}
+
+footer p:hover {
+  color: #ffffff; /* Tailwind's hover:text-white */
+}

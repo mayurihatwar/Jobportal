@@ -1,0 +1,55 @@
+.job-card {
+  border: 1px solid #e2e8f0; /* Tailwind's border border-gray-200 */
+  padding: 1.5rem; /* Tailwind's p-6 */
+  border-radius: 0.75rem; /* Tailwind's rounded-xl */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's shadow-lg */
+  margin-bottom: 1.5rem; /* Tailwind's mb-6 */
+  background-color: #ffffff; /* Tailwind's bg-white */
+  transition: all 300ms ease-in-out; /* Tailwind's transition-all duration-300 */
+}
+
+.job-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Tailwind's hover:shadow-2xl */
+  transform: translateY(-0.25rem); /* Tailwind's transform hover:-translate-y-1 */
+}
+
+.job-card h2 {
+  font-size: 1.25rem; /* Tailwind's text-xl */
+  font-weight: 600; /* Tailwind's font-semibold */
+  margin-bottom: 0.25rem; /* Tailwind's mb-1 */
+  color: #2d3748; /* Tailwind's text-gray-800 */
+}
+
+.job-card p {
+  margin-bottom: 0.25rem; /* Tailwind's mb-1 */
+}
+
+.job-card p:nth-of-type(1) {
+  color: #4a5568; /* Tailwind's text-gray-600 */
+}
+
+.job-card p:nth-of-type(2) {
+  color: #6b7280; /* Tailwind's text-gray-500 */
+  margin-bottom: 0.5rem; /* Tailwind's mb-2 */
+}
+
+.job-card p:nth-of-type(3) {
+  font-size: 0.875rem; /* Tailwind's text-sm */
+  color: #9ca3af; /* Tailwind's text-gray-400 */
+  margin-bottom: 0.75rem; /* Tailwind's mb-3 */
+}
+
+.job-card button {
+  margin-top: 0.5rem; /* Tailwind's mt-2 */
+  background-image: linear-gradient(to right, #3b82f6, #4f46e5); /* Tailwind's bg-gradient-to-r from-blue-500 to-indigo-600 */
+  color: white;
+  padding: 0.5rem 1.25rem; /* Tailwind's px-5 py-2 */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Tailwind's shadow-md */
+  transition: all 300ms ease-in-out; /* Tailwind's transition duration-300 */
+}
+
+.job-card button:hover {
+  background-image: linear-gradient(to right, #2563eb, #4338ca); /* Tailwind's hover:from-blue-600 hover:to-indigo-700 */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind's hover:shadow-lg */
+}

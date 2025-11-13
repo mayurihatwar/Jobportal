@@ -1,0 +1,23 @@
+.job-list-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Tailwind's grid-cols-1 */
+  gap: 1.5rem; /* Tailwind's gap-6 */
+}
+
+@media (min-width: 768px) { /* Tailwind's md breakpoint */
+  .job-list-container {
+    grid-template-columns: repeat(2, 1fr); /* Tailwind's md:grid-cols-2 */
+  }
+}
+
+@media (min-width: 1024px) { /* Tailwind's lg breakpoint */
+  .job-list-container {
+    grid-template-columns: repeat(3, 1fr); /* Tailwind's lg:grid-cols-3 */
+  }
+}
+
+.no-jobs-message {
+  color: #6b7280; /* Tailwind's text-gray-500 */
+  text-align: center;
+  grid-column: 1 / -1; /* Tailwind's col-span-full */
+}
